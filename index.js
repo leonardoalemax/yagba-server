@@ -4,7 +4,7 @@ var cors = require('cors')
 
 let hltbService = new hltb.HowLongToBeatService();
 const app = express()
-const port = 8080
+const port = process.env.PORT || 8080
 const bind = '0.0.0.0'
 
 app.get('/hltb/search', async (req, res) => {
