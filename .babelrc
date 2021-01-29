@@ -1,0 +1,14 @@
+{
+  "presets": [["@babel/preset-env", {
+      "targets": {
+        "node": "8.10"
+      },
+      "corejs": "2",
+      "useBuiltIns": "usage"
+  }]],
+  "plugins": ["transform-async-to-generator",["@babel/plugin-transform-modules-commonjs", {
+    "allowTopLevelThis": true,
+    "loose": true,
+    "lazy": true
+  }]]
+}
