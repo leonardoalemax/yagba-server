@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "engines": {
-    "node": "14.15.0"
+    "node": "14.13.0"
   },
   "scripts": {
     "dev": "nodemon --watch 'src/**/**' --ext 'js,json,jsx' --ignore 'src/**/*.spec.js' --exec npm start",
